@@ -1,4 +1,4 @@
-live - e-commerce-ro.netlify.app
+live - [ e-commerce-ro.netlify.app](https://e-commerce-ro.netlify.app/)
 # luxury-ecomm
 
 A luxury e-commerce application built with React, Vite, Tailwind CSS, Express, and MongoDB. It features smooth scrolling with Lenis and animations with Framer Motion.
