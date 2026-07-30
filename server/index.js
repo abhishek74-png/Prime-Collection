@@ -20,7 +20,8 @@ const JWT_SECRET = process.env.JWT_SECRET || 'dev-secret-change-me';
 let databaseStatus = MONGODB_URI ? 'connecting' : 'missing_uri';
 let databaseError = null;
 
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin:["https://e-commerce-ro.netlify.app",
+    "http://localhost:5173"], credentials: true }));
 app.use(express.json({ limit: '2mb' }));
 
 const connectDatabase = async () => {
